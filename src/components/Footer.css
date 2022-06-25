@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 129px;
+    background-color: #F2F4F1;
+}
+.redes img{
+    width: 35px;
+    height: 35px;
+}
+.copy{
+    background-color: #446061;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+}
+.copy p{
+    height: 19px;
+    color: #FFFFFF;
+}

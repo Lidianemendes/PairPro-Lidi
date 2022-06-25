@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/e57a2760585d510cd5ec9eabf0f12d13?family=Hurme+Geometric+Sans+No.2);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.star{
+    display: flex;
+    top:34px;
+    left:34px;
+    height: 943px;    
+ }
+h1{
+    display: flex;
+    position: relative;
+    color: #373737 bold;
+    opacity: 1;
+    top: 780px;
+    left: 468px;
+    width: 685px;
+    height: 191px;
+    font-size: 6vw;
+    text-align: left;
+    font-weight: 600; 
+    letter-spacing: 15.75px;
+}
+.rc{
+   display: flex;
+   position:relative; 
+   top: 91px;
+   left: 97px;
+   width: 68px;
+   height: 61px;
+}
+ul{
+    display: flex;
+    color:#373737;
+}
+li{
+    margin-top:25px;
+    margin-left: 290px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+.destak{
+    border: 5px solid;
+    padding:7px;
+    width: 116px;
+    height: 49px;
+}
