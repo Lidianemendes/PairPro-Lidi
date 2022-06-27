@@ -10,7 +10,7 @@ export default function Main(){
         <>
         <div className='imagetext'>
         <h2>LATEST RECIPES</h2>
-
+    
         <section className='receitas'>
             <img src={Bolo} alt=""/>
             <img src={Pizza} alt="" />

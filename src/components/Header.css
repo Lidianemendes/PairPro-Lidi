@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
 .star{
     display: flex;
     top:34px;
     left:34px;
-    height: 943px;    
+    height: 943px;  
+    
  }
 h1{
     display: flex;
