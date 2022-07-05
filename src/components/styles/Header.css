@@ -9,43 +9,42 @@ body{
 }
 .star{
     display: flex;
-    top:34px;
-    left:34px;
-    height: 943px;  
-    
+    height: 933px;  
+    margin-left:13px;
  }
 h1{
     display: flex;
     position: relative;
     color: #373737 bold;
     opacity: 1;
-    top: 780px;
+    top: 580px;
     left: 468px;
     width: 685px;
-    height: 191px;
-    font-size: 6vw;
-    text-align: left;
-    font-weight: 600; 
+    height: 0px;
+    font-size: 6vw; 
     letter-spacing: 15.75px;
 }
 .rc{
    display: flex;
    position:relative; 
-   top: 91px;
+   top:91px;
    left: 97px;
    width: 68px;
    height: 61px;
 }
-ul{
-    display: flex;
+.head ul{
     color:#373737;
+    display: flex;
+    margin-left:820px;
+    
 }
-li{
-    margin-top:25px;
-    margin-left: 290px;
-    text-align: left;
+.head li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    list-style: none;
+    margin-right: 40px;
+    
 }
 .destak{
     border: 5px solid;

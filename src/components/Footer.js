@@ -3,7 +3,7 @@ import Instagram from './imagens/instagram.png';
 import Twitter from './imagens/twitter.png';
 import Facebook from './imagens/facebook.png';
 import Pinterest from './imagens/pinterest.png';
-import './Footer.css'
+import './styles/Footer.css'
 
 
 export default function Footer(){
@@ -15,7 +15,7 @@ export default function Footer(){
             <img src={Twitter} alt='twitter'/>
             <img src={Facebook} alt='facebook' />
             <img src={Pinterest} alt='pinterest' />
-            <ul>
+            <ul className='end'>
             <li>ABOUT</li>
             <li>RECIPES</li>
             <li>SUBSCRIBE</li>

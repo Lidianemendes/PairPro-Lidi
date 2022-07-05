@@ -14,6 +14,19 @@
     width: 35px;
     height: 35px;
 }
+.end {
+    display: flex;
+    color:#373737;
+    display: flex;
+    margin-left:720px; 
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-right: 40px;
+}
 .copy{
     background-color: #446061;
     display: flex;

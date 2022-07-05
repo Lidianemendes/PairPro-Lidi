@@ -3,13 +3,14 @@ import Bolo from './imagens/boloMain.png';
 import Pizza from './imagens/pizzaMain.png';
 import Smoothie from './imagens/smoothieMain.png';
 import Colher from './imagens/colherMain2.png';
-import './main.css'
+import './styles/main.css'
 
 export default function Main(){
     return(
         <>
         <div className='imagetext'>
         <h2>LATEST RECIPES</h2>
+        <p></p>
     
         <section className='receitas'>
             <img src={Bolo} alt=""/>
@@ -18,12 +19,13 @@ export default function Main(){
         </section>
         <section className='list'>
             <ul>
-                <li>Red Velvet Cake</li>
+                <li className='line'>Red Velvet Cake</li>
                 <li>Margherita Pizza</li>
                 <li>Peanut Smoothie</li>
             </ul> 
         </section>
         </div>
+        
         <section className='duo'>
             <section className='coler'>
             <img src={Colher} alt="" />
